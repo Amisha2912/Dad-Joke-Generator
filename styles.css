@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Rubik+Vinyl&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 100%;
+    height:100%; */
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(45deg, #FFDD00, #FF5E5B, #FF69B4, #00BFFF);
+    /* background-color: red; */
+}
+
+.main-container{
+    width:80vmin; /*-- vmin => viewport min  1vmin = 1% 0f smaller of any dimension*/
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px;
+    /* margin:20vh auto; */
+    position: absolute;
+    transform:translate(-50%,-50%);
+    top:40%;
+    left:50%;
+    background-color: #B682CA;
+    box-shadow:0 0 30px #222;
+    border-radius: 30px;
+
+    #logo{
+        text-align: center;
+        font-size: 2.5rem;
+        color: aliceblue;
+        font-family: "Rubik Vinyl", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+#submit{
+    width:fit-content;
+    padding:15px;
+    /* text-align: center; */
+    color:white;
+    margin:10px auto;
+    margin-top:20px;
+    background: linear-gradient(180deg, #FFDD00, #FF5E5B, #FF69B4, #00BFFF);
+    border-radius: 10px;
+    border:none;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#joke-generator{
+    text-align: center;
+    /* display:block; */
+    /* border:1px solid red; */
+    /* color:white; */
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size:18px;
+    word-wrap:break-word;
+    line-height:30px;
+    padding: 15px 10px;
+    margin:0 auto;
+    margin-top: 40px;
+    /* transition: 0.3s ease; */
+    opacity: 0;
+}
+
+.fade{
+    opacity: 1 !important;  /* !important is mandatory as it is being overidden by other property*/
+    transition: opacity 0.8s ease;
+}
+
