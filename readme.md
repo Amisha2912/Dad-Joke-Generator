@@ -56,7 +56,7 @@ This project creates an engaging platform for users to access dad jokes. With AP
 
 ## Host Link
 
-Access the hosted project here: [Dad Jokes Generator](<hosted-link>)
+Access the hosted project here: [Dad Jokes Generator](https://amisha2912.github.io/Dad-Joke-Generator/)
 
 ## Ending
 
